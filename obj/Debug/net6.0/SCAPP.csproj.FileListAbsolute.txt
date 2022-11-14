@@ -1,0 +1,45 @@
+C:\Users\owner\Desktop\SCAPP\bin\Debug\net6.0\SCAPP.exe
+C:\Users\owner\Desktop\SCAPP\bin\Debug\net6.0\SCAPP.deps.json
+C:\Users\owner\Desktop\SCAPP\bin\Debug\net6.0\SCAPP.runtimeconfig.json
+C:\Users\owner\Desktop\SCAPP\bin\Debug\net6.0\SCAPP.dll
+C:\Users\owner\Desktop\SCAPP\bin\Debug\net6.0\SCAPP.pdb
+C:\Users\owner\Desktop\SCAPP\obj\Debug\net6.0\SCAPP.csproj.AssemblyReference.cache
+C:\Users\owner\Desktop\SCAPP\obj\Debug\net6.0\SCAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\owner\Desktop\SCAPP\obj\Debug\net6.0\SCAPP.AssemblyInfoInputs.cache
+C:\Users\owner\Desktop\SCAPP\obj\Debug\net6.0\SCAPP.AssemblyInfo.cs
+C:\Users\owner\Desktop\SCAPP\obj\Debug\net6.0\SCAPP.csproj.CoreCompileInputs.cache
+C:\Users\owner\Desktop\SCAPP\obj\Debug\net6.0\SCAPP.dll
+C:\Users\owner\Desktop\SCAPP\obj\Debug\net6.0\refint\SCAPP.dll
+C:\Users\owner\Desktop\SCAPP\obj\Debug\net6.0\SCAPP.pdb
+C:\Users\owner\Desktop\SCAPP\obj\Debug\net6.0\SCAPP.genruntimeconfig.cache
+C:\Users\owner\Desktop\SCAPP\obj\Debug\net6.0\ref\SCAPP.dll
+C:\Users\owner\Desktop\SCAPP - Copy\bin\Debug\net6.0\SCAPP.exe
+C:\Users\owner\Desktop\SCAPP - Copy\bin\Debug\net6.0\SCAPP.deps.json
+C:\Users\owner\Desktop\SCAPP - Copy\bin\Debug\net6.0\SCAPP.runtimeconfig.json
+C:\Users\owner\Desktop\SCAPP - Copy\bin\Debug\net6.0\SCAPP.dll
+C:\Users\owner\Desktop\SCAPP - Copy\bin\Debug\net6.0\SCAPP.pdb
+C:\Users\owner\Desktop\SCAPP - Copy\obj\Debug\net6.0\SCAPP.csproj.AssemblyReference.cache
+C:\Users\owner\Desktop\SCAPP - Copy\obj\Debug\net6.0\SCAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\owner\Desktop\SCAPP - Copy\obj\Debug\net6.0\SCAPP.AssemblyInfoInputs.cache
+C:\Users\owner\Desktop\SCAPP - Copy\obj\Debug\net6.0\SCAPP.AssemblyInfo.cs
+C:\Users\owner\Desktop\SCAPP - Copy\obj\Debug\net6.0\SCAPP.csproj.CoreCompileInputs.cache
+C:\Users\owner\Desktop\SCAPP - Copy\obj\Debug\net6.0\SCAPP.dll
+C:\Users\owner\Desktop\SCAPP - Copy\obj\Debug\net6.0\refint\SCAPP.dll
+C:\Users\owner\Desktop\SCAPP - Copy\obj\Debug\net6.0\SCAPP.pdb
+C:\Users\owner\Desktop\SCAPP - Copy\obj\Debug\net6.0\SCAPP.genruntimeconfig.cache
+C:\Users\owner\Desktop\SCAPP - Copy\obj\Debug\net6.0\ref\SCAPP.dll
+C:\Users\owner\Desktop\SHOW FILE\bin\Debug\net6.0\SCAPP.exe
+C:\Users\owner\Desktop\SHOW FILE\bin\Debug\net6.0\SCAPP.deps.json
+C:\Users\owner\Desktop\SHOW FILE\bin\Debug\net6.0\SCAPP.runtimeconfig.json
+C:\Users\owner\Desktop\SHOW FILE\bin\Debug\net6.0\SCAPP.dll
+C:\Users\owner\Desktop\SHOW FILE\bin\Debug\net6.0\SCAPP.pdb
+C:\Users\owner\Desktop\SHOW FILE\obj\Debug\net6.0\SCAPP.csproj.AssemblyReference.cache
+C:\Users\owner\Desktop\SHOW FILE\obj\Debug\net6.0\SCAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\owner\Desktop\SHOW FILE\obj\Debug\net6.0\SCAPP.AssemblyInfoInputs.cache
+C:\Users\owner\Desktop\SHOW FILE\obj\Debug\net6.0\SCAPP.AssemblyInfo.cs
+C:\Users\owner\Desktop\SHOW FILE\obj\Debug\net6.0\SCAPP.csproj.CoreCompileInputs.cache
+C:\Users\owner\Desktop\SHOW FILE\obj\Debug\net6.0\SCAPP.dll
+C:\Users\owner\Desktop\SHOW FILE\obj\Debug\net6.0\refint\SCAPP.dll
+C:\Users\owner\Desktop\SHOW FILE\obj\Debug\net6.0\SCAPP.pdb
+C:\Users\owner\Desktop\SHOW FILE\obj\Debug\net6.0\SCAPP.genruntimeconfig.cache
+C:\Users\owner\Desktop\SHOW FILE\obj\Debug\net6.0\ref\SCAPP.dll
