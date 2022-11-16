@@ -39,7 +39,7 @@ namespace SCAPP.Implimentation
                 else
                 {
                     string MovieName = movieName; 
-                    string sitnumber = "Sit" + new Random(id).Next(001 ,600).ToString();
+                    string sitnumber =  new Random(id).Next(001 ,600).ToString();
                     bool isAvailable = true;
                     int duration = 2;
                     BookingCoustomer books = new BookingCoustomer( id,  movieName,  bookingDate,  sitNumber,  movieDate, isAvailable,  duration,  email);

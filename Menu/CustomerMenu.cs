@@ -61,7 +61,7 @@ namespace SCAPP.Menu
         }
         public void LoginMenu()
         {
-            Console.Write("Enter your email:d ");
+            Console.Write("Enter your email : ");
             string email = Console.ReadLine();
             Console.Write("Enter your pin: ");
             int pin = int.Parse(Console.ReadLine());
@@ -82,37 +82,53 @@ namespace SCAPP.Menu
             int flag = 0;
             do
             {
-                Console.WriteLine("\nEnter 1 for createbooking\nEnter 2 to AddMoneyToWallet\nEnter 3 to CheckWallet\n enter 4 to deletebooking ");
+                Console.WriteLine("\nEnter 1 to view all available movies  \nEnter 2 to  create booking\nEnter 3 to AddMoneyToWallet\nEnter 4 to CheckWallet\nEnter 5 to deletebooking \nEnter 6 to delet customer \nEnter 7 to logout");
                 Console.WriteLine("");
                 int choice = int.Parse(Console.ReadLine());
                 switch (choice)
                 {
                     case 1:
+                        movieManager.GetAllMovies();
+                        CustomerSubMenu();
+                        break;
+                    case 2:
                         Createbookingmenu();
                         break;
 
 
-                    case 2:
+                    case 3:
                         AddMoneyToWallet();
+                        CustomerSubMenu();
                         break;
 
-                    case 3:
-                        CheckWallet();
-                        break;
                     case 4:
-                        BookingDelete();
+                        CheckWallet();
+                        CustomerSubMenu();
                         break;
+                    case 5:
+                        BookingDelete();
+                        CustomerSubMenu();
+                        break;
+                    case 6: 
+                        DtlCutomer();
+                         CustomerSubMenu();
+                        break;
+                    case 7: 
+                       MainMenu mm = new MainMenu();
+                        mm.WelcomeMenu();
+                        break;
+
 
                     default:
                         Console.Write("Invalid Input");
                         break;
 
                 }
-                 Console.WriteLine("\nEnter 1 to go through the it again\nEnter 2 to exit the program");
+                Console.WriteLine("\nEnter 1 to go through the it again\nEnter 2 to exit the program");
                 flag = int.Parse(Console.ReadLine());
             } while (flag == 1);
 
-          
+
 
         }
 
@@ -123,13 +139,13 @@ namespace SCAPP.Menu
             Console.WriteLine("This are the available movies");
             movieManager.GetAllMovies();
             Console.WriteLine();
-            Console.WriteLine(" enter your gmail ");
+            Console.WriteLine("Enter your gmail ");
             string email = Console.ReadLine();
-            Console.WriteLine(" ente the movie name  ");
+            Console.WriteLine("Ente the movie name  ");
             string movieName = Console.ReadLine();
             Console.Write("Enter your bookingDate (yyyy-mm-dd):  ");
             DateTime bookiningdate = DateTime.Parse(Console.ReadLine());
-            Console.WriteLine(" enter you sitnumber  ");
+            Console.WriteLine("Enter you a number to generate a number ");
             string sitnumber = Console.ReadLine();
             Console.Write("Enter your movie date(yyyy-mm-dd): ");
             DateTime moviedate = DateTime.Parse(Console.ReadLine());
@@ -141,10 +157,8 @@ namespace SCAPP.Menu
         {
             Console.Write("Enter your email: ");
             string email = Console.ReadLine();
-
             Console.Write("Enter your amount: ");
             double amount = double.Parse(Console.ReadLine());
-
             customerManager.AddMoneyToWallet(email, amount);
         }
         void CheckWallet()
@@ -152,20 +166,23 @@ namespace SCAPP.Menu
             Console.Write("Enter your email: ");
             string email = Console.ReadLine();
             Console.Write("Enter your phonenumber: ");
-            int phonenumber = int.Parse(Console.ReadLine());
-
+            int password = int.Parse(Console.ReadLine());
             Console.Write("You have successfully checked your balance");
-
-            customerManager.CheckWallet(email, phonenumber);
+            customerManager.CheckWallet(email, password);
         }
 
         void BookingDelete()
         {
             Console.WriteLine(" Enter the movie date yyyy/mm/dd");
             DateTime moiviesdates = DateTime.Parse(Console.ReadLine());
-            Console.WriteLine(" you have suceefully delete booking ");
+            // Console.WriteLine(" you have suceefully delete booking ");
             bookingManager.DeleteBooking(moiviesdates);
-
+        }
+        void DtlCutomer()
+        {
+            Console.WriteLine(" Enter gmail ");
+            string gmail = Console.ReadLine();
+            customerManager.DeleteCustomer(gmail);
         }
 
     }

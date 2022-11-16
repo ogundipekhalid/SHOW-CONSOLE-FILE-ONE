@@ -14,7 +14,7 @@ namespace SCAPP.Interface
         public Customer GetCustomer (string email);
         public Customer Login (string email, int pIn);
         public void AddMoneyToWallet (string email, double amount);
-        public Customer CheckWallet (string email,int phoneNumber);
+        public Customer CheckWallet (string email,int pin);
         public Customer RescheduleBooking(int id, int bookingdate, string duration);
          public void ReadFromFile();
           public void ReWriteFile();

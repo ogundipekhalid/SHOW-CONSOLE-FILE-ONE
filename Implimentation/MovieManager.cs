@@ -19,7 +19,7 @@ namespace SCAPP.Implimentation
             int Id = rand.Next(100, 999);
             Movie movie = new Movie(id, tittle, director, year, MoviePrice);
             listOfMovie.Add(movie);
-            Console.WriteLine($"{tittle} surcessfly  created ");
+            Console.WriteLine($" MVB{tittle} surcessfly  created ");
             using (StreamWriter write = new StreamWriter(FilePath, append: true))
             {
                 write.WriteLine(movie.WriteToFileFormat());
@@ -42,25 +42,8 @@ namespace SCAPP.Implimentation
                 }
             }
             Console.WriteLine("Delete succesfully");
-
-             }
-    //   public void DeleteMovie()
-    //     {
-    //         Console.WriteLine("Enter Tittle of movie to delete: ");
-    //         string title = Console.ReadLine().Trim();
-    //         foreach (var item in listOfMovie)
-    //         {
-    //             if (item.Tittle == title)
-    //             {
-    //                 listOfMovie.Remove(item);
-    //                 ReWriteFile();
-    //                 break;
-    //             }
-    //         }
-    //         Console.WriteLine("Delete succesfully");
-
-    //     }
-
+        }
+    
         public Movie GetMovie(string tIttle)
         {
             foreach (var item in listOfMovie)
@@ -84,23 +67,22 @@ namespace SCAPP.Implimentation
 
         public void UpdateMovie(int movieprice,int year)
         {
-            Console.WriteLine("Enter tittle of movie to Update: ");
+            Console.WriteLine("Enter the previous tittle  of movie to Update: ");
             string title = Console.ReadLine().Trim();
             Movie MovieToUpdate = GetMovie(title);
             if (MovieToUpdate != null)
             {
-                Console.WriteLine("Update Movie Price : ");
+                Console.WriteLine("Update the new  Movie Price : ");
                 int moviePrice  = int.Parse(Console.ReadLine().Trim());
                 MovieToUpdate.MoviePrice = moviePrice;
 
-                Console.WriteLine("Update the year : ");
+                Console.WriteLine("Update the new  year : ");
                 int years  = int.Parse(Console.ReadLine().Trim());
                 MovieToUpdate.Year = years;
 
-                Console.WriteLine("Update tittle: ");
+                Console.WriteLine("Update new tittle: ");
                 string tittlle = Console.ReadLine().Trim();
                 MovieToUpdate.Tittle = tittlle;
-
                 ReWriteFile();
                 Console.WriteLine("movie updated successfully");
             }
@@ -108,19 +90,6 @@ namespace SCAPP.Implimentation
             {
                 Console.WriteLine("movie not found");
             }
-            // Movie  updateMovie = GetMovie(tittle);
-            // if(updateMovie != null)
-            // {
-            //    updateMovie.Tittle = tittle;
-            //     updateMovie.MoviePrice =moviePrice;
-            //     // Console.WriteLine($" {updateMovie.Tittle} first tillte update sucessully  {updateMovie.MoviePrice} movieprice updade surcessfully ");
-            //     // Console.WriteLine("movie update successful");
-            // }
-            // else 
-            // {
-
-            //    Console.Beep();
-            // }
         }
         public void ReadFromFile()
         {

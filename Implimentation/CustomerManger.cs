@@ -26,11 +26,11 @@ namespace SCAPP.Implimentation
             }
         }
 
-        public Customer CheckWallet(string email,int phoneNumber)
+        public Customer CheckWallet(string email,int pin)
         {
             foreach (var customer in listOfCustomers)
             {
-                if (customer.Email == email && customer.PhoneNumber == phoneNumber)
+                if (customer.Email == email && customer.PIN == pin )//customer.Email == email && customer.PhoneNumber == phoneNumber)
                 {
                     Console.WriteLine("You have successfully checked your balance");
                 }

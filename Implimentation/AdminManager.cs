@@ -17,8 +17,8 @@ namespace SCAPP.Implimentation
             Random rand = new Random();
             int id  =  rand.Next(100, 999);
             Admin adm = new Admin(id , firstName, lastName, eMail, pIn, adminId);
-            int movePrice = 2000;
-            Console.WriteLine($"thank you  {adm.FirstName}, {adm.LastName}  your identity number is {adminId} the movie price is {movePrice}  ");
+            // int movePrice = 2000;
+            Console.WriteLine($"thank you  {adm.FirstName}, {adm.LastName}  your identity number is {id +lastName}\n and  the movie price is within the range of 2500 to 4500");
             listOfAdmin.Add(adm);
             using (StreamWriter writer = new StreamWriter(FilePath, append: true))
             {

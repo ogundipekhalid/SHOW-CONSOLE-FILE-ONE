@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\owner\\Desktop\\SHOW FILE\\SCAPP.csproj": {}
+    "C:\\Users\\owner\\Desktop\\SHOW FILE - Update - MJK\\SCAPP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\owner\\Desktop\\SHOW FILE\\SCAPP.csproj": {
+    "C:\\Users\\owner\\Desktop\\SHOW FILE - Update - MJK\\SCAPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\owner\\Desktop\\SHOW FILE\\SCAPP.csproj",
+        "projectUniqueName": "C:\\Users\\owner\\Desktop\\SHOW FILE - Update - MJK\\SCAPP.csproj",
         "projectName": "SCAPP",
-        "projectPath": "C:\\Users\\owner\\Desktop\\SHOW FILE\\SCAPP.csproj",
+        "projectPath": "C:\\Users\\owner\\Desktop\\SHOW FILE - Update - MJK\\SCAPP.csproj",
         "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\owner\\Desktop\\SHOW FILE\\obj\\",
+        "outputPath": "C:\\Users\\owner\\Desktop\\SHOW FILE - Update - MJK\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
